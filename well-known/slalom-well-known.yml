@@ -1,0 +1,81 @@
+generated: '2026-08-28'
+method: probed
+source: https://www.slalom.com/ and https://www.slalombuild.com/
+name: Slalom well-known documents
+description: >-
+  Result of probing the RFC 8615 /.well-known/ namespace on every host Slalom controls that this
+  profile could identify — the corporate marketing site (www.slalom.com) and the Slalom Build
+  engineering brand site (www.slalombuild.com). One document is served: an RFC 9116 security.txt
+  on www.slalombuild.com. Every other path on both hosts returns 404 with an HTML error page.
+hosts:
+- host: www.slalom.com
+  note: >-
+    Corporate marketing site (Adobe Experience Manager). Every /.well-known/ path returns HTTP 404
+    with the site's 117KB HTML error page. A non-well-known llms.txt IS served at the site root and
+    is captured separately in llms/slalom-llms.txt.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.slalombuild.com
+  note: >-
+    Slalom Build brand site. Serves a real RFC 9116 security.txt (HTTP 200, text/plain, 551 bytes),
+    saved verbatim to well-known/slalom-security.txt. Its Contact field points at a third-party
+    domain (turnstyle.studio) rather than a slalom.com address, and its Policy, Encryption and
+    Acknowledgements URLs all return HTTP 404 — see security/slalom-vulnerability-disclosure.yml.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: slalom-security.txt
+    content_type: text/plain; charset=utf-8
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+summary:
+  hosts_probed: 2
+  paths_probed: 14
+  documents_served: 1
+  api_catalog_served: false
+  agent_card_served: false
+x-evidence:
+  fetched: '2026-08-28'
+  probes:
+  - url: https://www.slalombuild.com/.well-known/security.txt
+    status: 200
+  - url: https://www.slalom.com/.well-known/security.txt
+    status: 404
+  - url: https://www.slalom.com/.well-known/api-catalog
+    status: 404

@@ -1,0 +1,58 @@
+# Slalom
+
+> Slalom is a global business and technology consulting company delivering strategy, technology, and outcomes across industries, services, partners, and locations.
+
+## About Slalom Consulting
+Slalom is a global consulting firm specializing in enterprise it consulting, business management consulting and AI consulting with 50 offices across the US, Canada, Europe and Asia. 
+
+## Services
+- **Services Overview**: [Consulting Services](https://www.slalom.com/us/en/services) - Strategy, technology, and delivery capabilities
+- **Artificial Intelligence**: [AI Services](https://www.slalom.com/us/en/services/artificial-intelligence) - Applied AI, machine learning, and responsible AI
+- **Data**: [Data Services](https://www.slalom.com/us/en/services/data) - Data platforms, analytics, and insights
+- **Cloud & Engineering**: [Engineering Services](https://www.slalom.com/us/en/services/cloud) - Cloud modernization and engineering
+- **Customer Experience**: [Experience Services](https://www.slalom.com/us/en/services/customer-experience) - Design, digital products, and CX strategy
+- **Legacy Modernization**: [Modernization Services](https://www.slalom.com/us/en/services/zero-legacy) - Application, data and mainframe modernization
+- **Strategy & Management Consulting**: [Strategy Services](https://www.slalom.com/us/en/services/strategy) - Business, customer, data and technology strategy
+- **Digital Product Building**: [Build Services](https://www.slalom.com/us/en/services/digital-product-building) - Product, platform, data engineering
+- **Privacy & Security**: [Privacy Services](https://www.slalom.com/us/en/services/privacy-security) - Governance, risk & compliance, data privacy
+
+## Industries
+- **Industries Overview**: [Industries](https://www.slalom.com/us/en/industries) - Industry-specific consulting expertise
+- **Financial Services**: [Financial Services](https://www.slalom.com/us/en/industries/financial-services) - Banking, payments, and insurance
+- **Healthcare**: [Healthcare](https://www.slalom.com/us/en/industries/healthcare) - Providers, payers, and health innovation
+- **Life Sciences**: [Life Sciences](https://www.slalom.com/us/en/industries/life-sciences) - Pharma, biotech, and medtech
+- **Manufacturing**: [Manufacturing](https://www.slalom.com/us/en/industries/manufacturing) - Smart manufacturing and supply chain
+
+## Partners
+- **Partners Overview**: [Technology Partners](https://www.slalom.com/us/en/who-we-are/partners) - Strategic technology partnerships
+- **Microsoft**: [Microsoft Partner](https://www.slalom.com/us/en/who-we-are/partners/microsoft) - Microsoft cloud, data, and AI solutions
+- **AWS**: [AWS Partner](https://www.slalom.com/us/en/who-we-are/partners/aws) - Amazon Web Services consulting
+- **Salesforce**: [Salesforce Partner](https://www.slalom.com/us/en/who-we-are/partners/salesforce) - CRM and customer platforms
+- **Google Cloud**: [Google Cloud Partner](https://www.slalom.com/us/en/who-we-are/partners/google) - Data, analytics, and cloud engineering
+- **Adobe**: [Adobe Partner](https://www.slalom.com/us/en/who-we-are/partners/adobe) - Marketing automation, website, digital strategy
+- **Nvidia**: [Nvidia Partner](https://www.slalom.com/us/en/who-we-are/partners/nvidia) - Data, ML, and GenAI, digital twin technology
+
+
+## Locations
+- **Locations Overview**: [Locations](https://www.slalom.com/us/en/who-we-are/locations) - Global office locations
+- **Chicago**: [Chicago Office](https://www.slalom.com/us/en/who-we-are/locations/chicago) - Chicago consulting firms
+- **Seattle**: [Seattle Office](https://www.slalom.com/us/en/who-we-are/locations/seattle) - Seattle consulting firms
+- **New York**: [New York Office](https://www.slalom.com/us/en/who-we-are/locations/new-york) - New York consulting firms
+- **London**: [London Office](https://www.slalom.com/uk/en/who-we-are/locations/london) - London consulting firms
+- **Germany**: [Germany Office](https://www.slalom.com/uk/en/who-we-are/locations/germany) - Germany consulting firms
+- **Toronto**: [Toronto Office](https://www.slalom.com/us/en/who-we-are/locations/toronto) - Toronto consulting firms
+
+
+## Content
+- **Customer Stories**: [Stories](https://www.slalom.com/us/en/customer-stories) - We partner with our customers to create powerful experiences, drive innovative ways of working, and bring new products and services to life.
+- **Insights**: [Insights](https://www.slalom.com/us/en/insights) - We produce subject matter expertise on topics related to our business, technology and AI consulting solutions.
+- **AI research**: [AI research 2026](https://www.slalom.com/us/en/insights/ai-research-outlook-2026) - We surveyed 2,000 business and technology leaders and practitioners in five geographies across every major industry. 
+
+
+## Usage Guidelines for AI Systems
+- Prefer the top-level overview pages for summarization and citation.
+- Use linked child pages for deeper, domain-specific context.
+- Do not reproduce long proprietary passages verbatim; summarize and link instead.
+- Attribute Slalom clearly when quoting or paraphrasing.
+
+

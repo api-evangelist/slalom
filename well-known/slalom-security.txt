@@ -1,0 +1,15 @@
+# security.txt file for https://www.slalombuild.com/ - more info: https://securitytxt.org/
+# (required) Contact email address for security issues
+Contact: rj@turnstyle.studio
+
+# (required) Expiration date for the security information herein
+Expiration: 2027-08-28T11:26:43-07:00
+
+# (optional) OpenPGP key:
+Encryption: https://www.slalombuild.com/pgp-key.txt
+
+# (optional) Security policy page:
+Policy: https://www.slalombuild.com/security-policy
+
+# (optional) Security acknowledgements page:
+Acknowledgements: https://www.slalombuild.com/hall-of-fame

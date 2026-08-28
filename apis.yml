@@ -1,8 +1,18 @@
 aid: slalom
 name: Slalom
-description: 'Slalom is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Slalom is a global business and technology consulting firm headquartered in Seattle, Washington,
+  founded in 2001 and privately held, with roughly 12,000 employees across dozens of markets in
+  North America, Europe, Asia and Australia. The firm delivers strategy, artificial intelligence,
+  data, cloud and engineering, customer experience, legacy modernization, digital product building,
+  and privacy and security consulting, and operates the Slalom Build brand for custom software,
+  data platform and product engineering work. Slalom is a delivery partner for Microsoft, AWS,
+  Salesforce, Google Cloud, Adobe and NVIDIA. It sells consulting engagements rather than software,
+  and publishes no public developer program, API reference or machine-readable API contract; the
+  machine-readable surface it does publish is an llms.txt at its marketing root and a security.txt
+  on the Slalom Build site.
 url: https://raw.githubusercontent.com/api-evangelist/slalom/refs/heads/main/apis.yml
+image: https://www.slalom.com/content/dam/slalom/global-assets/Slalom_OG_Image.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +22,14 @@ created: '2026-08-28'
 modified: '2026-08-28'
 tags:
 - Company
+- Consulting
+- Professional Services
+- Technology Consulting
+- Artificial Intelligence
+- Cloud
+- Data
+- Digital Transformation
+- Systems Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +37,51 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/slalom-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/slalom-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/slalom_stock/
+  url: https://www.slalom.com/us/en
+- type: Blog
+  url: https://www.slalom.com/us/en/insights
+- type: GitHubOrganization
+  url: https://github.com/slalombuild
+- type: TermsOfService
+  url: https://www.slalom.com/us/en/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.slalom.com/us/en/legal/privacy-policy
+- type: LLMsTxt
+  url: llms/slalom-llms.txt
+- type: WellKnown
+  url: well-known/slalom-well-known.yml
+- type: SecurityTxt
+  url: well-known/slalom-security.txt
+- type: Security
+  url: security/slalom-vulnerability-disclosure.yml
+- type: Packages
+  url: packages/slalom-packages.yml
+x-enrichment:
+  date: '2026-08-28'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Slalom is a consulting firm that sells engagements, not software products: its 705-page US
+    sitemap contains no developer, API, or documentation section, and no OpenAPI, GraphQL, MCP or
+    agent-card probe hit on either www.slalom.com or www.slalombuild.com.
+  evidence:
+  - url: https://www.slalom.com/openapi.json
+    status: 404
+  - url: https://www.slalom.com/.well-known/api-catalog
+    status: 404
+  - url: https://www.slalombuild.com/openapi.json
+    status: 404
+  - url: https://www.slalom.com/content/slalom.sitemap.us-sitemap.xml
+    status: 200
+  - url: https://www.slalom.com/llms.txt
+    status: 200
+  checked: '2026-08-28'

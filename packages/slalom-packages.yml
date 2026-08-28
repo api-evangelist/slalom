@@ -1,0 +1,76 @@
+generated: '2026-08-28'
+method: searched
+source: https://github.com/slalombuild + https://pypi.org/pypi/secureli/json + https://registry.npmjs.org/
+name: Slalom packages
+description: >-
+  Slalom sells consulting engagements, not software, and publishes no public API — so it ships no
+  API client SDKs in any registry. What it does publish are open-source developer tools from the
+  Slalom Build brand under the github.com/slalombuild organization (14 public repositories, 13 of
+  them archived). Only one of those has a first-party package in a public registry: seCureLI, a
+  Python pre-commit security scanner on PyPI. Its repository was archived on 2024-07-15, a week
+  after its last release, so it is no longer maintained.
+package_count: 1
+sdk_count: 0
+sdk_note: >-
+  No API client SDK exists because there is no Slalom API to wrap. seCureLI is a standalone
+  developer tool, not a client library, so no `SDKs` pointer is emitted for it.
+packages:
+- name: secureli
+  registry: pypi
+  url: https://pypi.org/project/secureli/
+  official: true
+  official_basis: >-
+    PyPI metadata names the author as caleb.tonn@slalom.com and the project is the published build
+    of github.com/slalombuild/secureli, a repository in Slalom Build's own GitHub organization.
+  language: Python
+  license: Apache-2.0
+  kind: developer-tool
+  description: >-
+    seCureLI — a CLI that installs and manages language-specific pre-commit security and secret
+    scanning hooks in a developer's local repository.
+  repository: https://github.com/slalombuild/secureli
+  version: 0.42.1
+  published: '2024-07-08'
+  status: unmaintained
+  note: >-
+    The upstream repository github.com/slalombuild/secureli was ARCHIVED on 2024-07-15, seven days
+    after this release. No release since. Read as an abandonment signal, not a currency signal.
+rejected:
+- name: react-mailto
+  registry: npm
+  reason: >-
+    github.com/slalombuild/react-mailto is a FORK. The npm package react-mailto@0.4.0 (published
+    2016-07-16) declares repository git+https://github.com/jasonbellamy/react-mailto.git and is
+    published by an unrelated author. Not first-party to Slalom, so it is not recorded as a Slalom
+    package.
+other_open_source:
+  note: >-
+    Slalom Build's remaining public repositories ship as source only — no registry artifact was
+    found for any of them.
+  repositories:
+  - name: blackslope.net
+    url: https://github.com/slalombuild/blackslope.net
+    language: C#
+    archived: false
+    last_push: '2026-01-07'
+    description: .NET Core reference architecture
+  - name: fusion
+    url: https://github.com/slalombuild/fusion
+    language: Go
+    archived: true
+    last_push: '2024-01-23'
+    description: Secure-by-default cloud infrastructure configuration generator (Go + Terraform)
+  - name: quests
+    url: https://github.com/slalombuild/quests
+    language: JavaScript
+    archived: true
+    last_push: '2026-04-08'
+    description: Projects used alongside Slalom Quests sessions
+evidence:
+- url: https://api.github.com/orgs/slalombuild
+  status: 200
+- url: https://pypi.org/pypi/secureli/json
+  status: 200
+- url: https://registry.npmjs.org/react-mailto
+  status: 200
+checked: '2026-08-28'
