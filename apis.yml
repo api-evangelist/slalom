@@ -12,6 +12,17 @@ description: >-
   machine-readable surface it does publish is an llms.txt at its marketing root and a security.txt
   on the Slalom Build site.
 url: https://raw.githubusercontent.com/api-evangelist/slalom/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.slalom.com/content/dam/slalom/global-assets/Slalom_OG_Image.png
 x-type: company
 x-source: harvest:secondary-market
