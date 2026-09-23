@@ -1,0 +1,31 @@
+# Front Door AI Index — slalom — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: slalom
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.slalom.com
+  final_host: www.slalom.com
+  ownership: own
+  owner: slalom
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 27
+  host_score: 27
+  density: 15.62
+  words: 1728
+  tiers:
+    agentic: 1
+    core: 25
+    model: 1
+  ambiguous: 1
+  top_terms:
+    AI: 22
+    OpenAI: 1
+    artificial intelligence: 1
+    copilot: 1
+    gen ai: 1
+    intelligence: 1
+    machine learning: 1
